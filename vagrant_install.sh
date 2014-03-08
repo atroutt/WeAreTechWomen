@@ -23,6 +23,7 @@ rvm use 1.9.3 --default
 
 # update the gems if rvm doesn't
 rvm rubygems current
+rvm rvmrc warning ignore allGemfiles
 
 # attempt to give access to where rvm is installed
 sudo mkdir /usr/local/rvm
