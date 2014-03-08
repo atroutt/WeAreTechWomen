@@ -25,7 +25,8 @@ rvm use 1.9.3 --default
 rvm rubygems current
 rvm rvmrc warning ignore allGemfiles
 
-# attempt to give access to where rvm is installed
+# attempt to give access to where rvm is installed,
+# TODO: fix this
 sudo mkdir /usr/local/rvm
 sudo chmod a+xwr /usr/local/rvm
 
@@ -59,5 +60,6 @@ date > /etc/vagrant_provisioned_at
 echo "SETUP COMPLETE: We Are Tech Women works in Vagrant!"
 echo "Use 'vagrant ssh' to access the vm"
 echo "cd watw"
+echo "bundle install"
 echo "./go to start the server"
 echo "Go to http://localhost:3000 in your browser"

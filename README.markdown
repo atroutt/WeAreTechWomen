@@ -60,6 +60,7 @@ To start up a vm:
     You'll know it's done when you see: `SETUP COMPLETE: We Are Tech Women works in Vagrant!`
 * `vagrant ssh` this will get you into the vm without a password
 * `cd watw`
+* `bundle install`
 * `./go` to start the server"
 * Go to http://localhost:3000 in your browser
 
