@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 # Required since new heroku staging environment defaults to v1.9.2p290
-ruby "1.9.2"
+ruby "1.9.3"
 
 gem 'rails', '3.2.14'
 gem 'rake', '0.9.2'
