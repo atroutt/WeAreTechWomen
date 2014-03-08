@@ -109,3 +109,8 @@ group :test do
   gem 'faker'
   gem 'spork'
 end
+
+group :production do
+  gem 'pg'
+  gem 'thin'
+end
