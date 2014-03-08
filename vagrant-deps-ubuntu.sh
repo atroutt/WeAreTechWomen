@@ -7,7 +7,7 @@ if [ ! -f /etc/vagrant_provisioned_at ]; then
   apt-get update
   apt-get -y install postgresql-9.1 libpq-dev imagemagick git-core ruby1.9.1-dev libxslt1-dev libxml2-dev
 
-  curl -L https://get.rvm.io | bash -s stable --ruby=1.9.2 --autolibs=enabled
+  curl -L https://get.rvm.io | bash -s stable --ruby=1.9.3 --autolibs=enabled
   source /usr/local/rvm/scripts/rvm
   gem install bundler linecache19
 
@@ -17,6 +17,6 @@ if [ ! -f /etc/vagrant_provisioned_at ]; then
 
   date > /etc/vagrant_provisioned_at
 
-  echo "SETUP COMPLETE: We Work in Philly works in Vagrant!"
+  echo "SETUP COMPLETE: We are Tech Women works in Vagrant!"
   echo "Use 'vagrant ssh' to access the vm."
 fi
