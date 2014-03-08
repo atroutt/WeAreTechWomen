@@ -688,6 +688,12 @@ font-family: verdana , arial, sans-serif;
 #home_to {
   display: none;
 }
+#header h1 a span {
+  color: #c81c24;
+}
+#hellobar-container  span{
+  font-family: sans-serif;
+}
 #site_intro {
   margin-top: 0;
   width: 100%;
