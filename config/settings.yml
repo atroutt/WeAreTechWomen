@@ -21,13 +21,13 @@ common:
   hoptoad: seekrit!
   secret_token: "<%= ENV['APP_SECRET'] %>"
   organization:
-    name: WeWorkInPhilly
+    name: WeAreTechWomen
     city: Philadelphia
     state: PA
-    url: http://weworkinphilly.org
-    twitter: weWorkInPhilly
-    email: alex@indyhall.org
+    url: http://wearetechwomen.org
+    twitter: weAreTechWomen
+    email:
     host: Heroku
     host_url: http://heroku.com
-    logotype: <span>we</span>WorkInPhilly
+    logotype: <span>we</span>AreTechWomen
   search: sql
