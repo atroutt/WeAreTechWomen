@@ -2,7 +2,7 @@
 We Are Tech Women was forked from the citizenry project. It seems this project is no longer under active development. It is, however, useful for historical purposes.
 - https://github.com/reidab/citizenry/
 
-We Are is supported by all and owned by no one. Please see the GitHub issues log for some simple ways to contribute. There are several open items that might only require an hour or so of your time. If you have other ideas or enhancements, pull requests are always welcome.
+We Are Tech Women is supported by all and owned by no one. Please see the GitHub issues log for some simple ways to contribute. There are several open items that might only require an hour or so of your time. If you have other ideas or enhancements, pull requests are always welcome.
 
 # Development Box Setup
 
@@ -60,7 +60,6 @@ To start up a vm:
     You'll know it's done when you see: `SETUP COMPLETE: We Are Tech Women works in Vagrant!`
 * `vagrant ssh` this will get you into the vm without a password
 * `cd watw`
-* `sudo bundle install` TODO: fix this to not require sudo
 * `./go` to start the server"
 * Go to http://localhost:3000 in your browser
 

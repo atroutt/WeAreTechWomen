@@ -21,10 +21,14 @@ rvm requirements
 rvm install 1.9.3
 rvm use 1.9.3 --default
 
+# update the gems if rvm doesn't
 rvm rubygems current
 
-sudo chmod +x /usr/local/rvm
+# attempt to give access to where rvm is installed
+sudo mkdir /usr/local/rvm
+sudo chmod a+xwr /usr/local/rvm
 
+# install rails
 gem install rails --no-ri --no-rdoc
 
 # update gems
@@ -36,13 +40,17 @@ gem install bundler
 # install postgres
 sudo apt-get install postgresql libpq-dev -y
 
-# install dependencies
-env ARCHFLAGS="-arch x86_64" bundle install
-
 # install imagemagick
 sudo apt-get install imagemagick
 
+# go to the source directory
+cd watw
+
+# install dependencies
+env ARCHFLAGS="-arch x86_64" bundle install
+
 # create database, migrate, prepare db tests
+bundle install
 bundle exec rake db:create db:migrate db:test:prepare
 
 date > /etc/vagrant_provisioned_at
@@ -50,6 +58,5 @@ date > /etc/vagrant_provisioned_at
 echo "SETUP COMPLETE: We Are Tech Women works in Vagrant!"
 echo "Use 'vagrant ssh' to access the vm"
 echo "cd watw"
-echo "sudo bundle install"
-echo "User ./go to start the server"
+echo "./go to start the server"
 echo "Go to http://localhost:3000 in your browser"
