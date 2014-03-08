@@ -99,7 +99,6 @@ group :test do
   gem "mocha"
   gem "fakeweb"
   gem "factory_girl_rails"
-  gem 'faker'
   gem 'uuid'
   gem 'steak', '1.1.0'
   gem 'capybara', '~> 0.4.0'
@@ -108,4 +107,8 @@ group :test do
   gem 'database_cleaner'
   gem 'faker'
   gem 'spork'
+end
+
+group :production do
+  gem 'thin'
 end

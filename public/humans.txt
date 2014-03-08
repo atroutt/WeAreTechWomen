@@ -1,46 +1,36 @@
 /* TEAM */
 
-Fearless Leader: Alex Hillman
-Twitter: @alexknowshtml
+Developer: Audrey Troutt
+Location: Philadelphia, PA
+Twitter: @auditty
 
-Developer: Linus Graybill
-Twitter: @graybill
+Developer: Cassandra King
+Location: Philadelphia, PA
+Twitter: @ca55king
 
-Developer: Chris Cera
-Twitter: @chriscera
+Developer: Deborah Shapiro
+Location: Philadelphia, PA
+Twitter: @shmeborah
 
-Developer: Brad Oyler
-Twitter: @bradoyler
+UI/UX Designer: Liz Brown
+Location: Philadelphia, PA
+Twitter: @lizbrownsays
 
-Developer: Andrew Scott
-Twitter: @apscott43
+Developer: Linda Nichols
+Location: Norfolk, VA
+Twitter: @lynnaloo
 
-Developer: Matt Monihan
-Twitter: @mattmonihan
+Copy: Susie Brunsvold
+Location: Philadelphia, PA
 
-Developer: Keith Fitzgerald
-Twitter: @ghostrocket
+Copy: Sheila Waples
+Location: Philadelphia, PA
+Twitter: @sheilawaples
 
-Developer: James Evans
-Twitter: @james_f_evans
+Developer: Kirsten Smith
+Location: Princeton, NJ
+Twitter: @k_i_r
 
-Developer: Varun Gupta
-Twitter: @vgupta16
+Developer: Gelsey Torres
+Location: Philadelphia, PA
 
-Developer: Dave Mox
-Github: @themoxman
-
-Developer: Brian Glick
-Github: @bglick
-    
-    
-/* THANKS */
-
-Sponsor: PeopleLinx
-Twitter: @peoplelinx
-
-Sponsor: ArcWeb
-Twitter: @arcweb
-
-Sponsor: Leadnomics
-Twitter: @leadnomics    

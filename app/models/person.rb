@@ -83,7 +83,7 @@ class Person < ActiveRecord::Base
     :twitter => "sample",
     :bio => "I am a sample person's profile.",
     :name => "Sample Person",
-    :location => "Portland, Oregon",
+    :location => "Philadelphia, Pennsylvania",
     :reviewed => true,
   }
 
