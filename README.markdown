@@ -56,10 +56,13 @@ To start up a vm:
 * Clone this repo to your machine
 * `cd wearetechwomen` on your machine
 * `vagrant up` on your machine
-* Wait for the vm to load. The first time you run this command it will take a while as it installs a bunch of software. You'll know it's done when you see: `SETUP COMPLETE: We Work in Philly works in Vagrant!`
+* Wait for the vm to load. The first time you run this command it will take a while as it installs a bunch of software.
+    You'll know it's done when you see: `SETUP COMPLETE: We Are Tech Women works in Vagrant!`
 * `vagrant ssh` this will get you into the vm without a password
-* `./go` on the vm
-* Open a browser on your machine: `http://localhost:3000`
+* `cd watw`
+* `sudo bundle install` TODO: fix this to not require sudo
+* `./go` to start the server"
+* Go to http://localhost:3000 in your browser
 
 Not familiar with Vagrant? Check out the [Getting Started](http://docs.vagrantup.com/v2/getting-started/index.html) guide.
 
@@ -68,7 +71,6 @@ Not familiar with Vagrant? Check out the [Getting Started](http://docs.vagrantup
 The code directory on your machine is mounted into the vm. When you ssh in it's in the `wwip` folder. You can edit files and perform git operations on your host computer using your tools of choice and the changes will be reflected on the vm.
 
 After your first `vagrant up` you can [stop](http://docs.vagrantup.com/v2/getting-started/teardown.html) and [start](http://docs.vagrantup.com/v2/getting-started/up.html) the vm more quickly. The initial provisioning only needs to run once. If anything happens with your setup you can `vagrant destroy` and `vagrant up` to bring back a fresh environment.
-
 
 ## Original Developer Notes
 
