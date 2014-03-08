@@ -17,6 +17,6 @@ if [ ! -f /etc/vagrant_provisioned_at ]; then
 
   date > /etc/vagrant_provisioned_at
 
-  echo "SETUP COMPLETE: We Work in Philly works in Vagrant!"
+  echo "SETUP COMPLETE: We are Tech Women works in Vagrant!"
   echo "Use 'vagrant ssh' to access the vm."
 fi
