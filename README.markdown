@@ -16,7 +16,7 @@ The setup assumes a nix based environment. If you are able to setup the build on
 `curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enabled`
 
 ## setup ruby
-`rvm install ruby-1.9.2`
+`rvm install ruby-1.9.3`
 
 ## update gems
 `gem update --system`
