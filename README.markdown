@@ -1,8 +1,8 @@
 # Development Box Setup
-We Work in Philly was forked from the citizenry project. It seems this project is no longer under active development. It is, however, useful for historical purposes.
+We Are Tech Women was forked from We-Work-In-Philly, which was forked from the citizenry project. It seems this project is no longer under active development. It is, however, useful for historical purposes.
 - https://github.com/reidab/citizenry/
 
-We Work in Philly is supported by all and owned by no one. Please see the GitHub issues log for some simple ways to contribute. There are several open items that might only require an hour or so of your time. If you have other ideas or enhancements, pull requests are always welcome.
+We Are Tech Women is supported by all and owned by no one. Please see the GitHub issues log for some simple ways to contribute. There are several open items that might only require an hour or so of your time. If you have other ideas or enhancements, pull requests are always welcome.
 
 # Development Box Setup
 
@@ -40,7 +40,7 @@ The setup assumes a nix based environment. If you are able to setup the build on
 ## run the application
 `./go`
 
-NOTE: you must login as "sample user" when you run the application. we do not reveal the twitter/linkedin keys. if you're working on twitter/linkedin integration, you can provide your own keys in the go script. 
+NOTE: you must login as "sample user" when you run the application. we do not reveal the twitter/linkedin keys. if you're working on twitter/linkedin integration, you can provide your own keys in the go script.
 
 # Vagrant VM Setup
 
@@ -54,22 +54,23 @@ Before proceeding you need to have installed:
 To start up a vm:
 
 * Clone this repo to your machine
-* `cd We-Work-In-Philly` on your machine
+* `cd wearetechwomen` on your machine
 * `vagrant up` on your machine
-* Wait for the vm to load. The first time you run this command it will take a while as it installs a bunch of software. You'll know it's done when you see: `SETUP COMPLETE:  We are Tech Women works in Vagrant!`
+* Wait for the vm to load. The first time you run this command it will take a while as it installs a bunch of software.
+    You'll know it's done when you see: `SETUP COMPLETE: We Are Tech Women works in Vagrant!`
 * `vagrant ssh` this will get you into the vm without a password
-* `cd wwip` on the vm
-* `./go` on the vm
-* Open a browser on your machine: `http://192.168.33.10:3000`
+* `cd watw`
+* `bundle install`
+* `./go` to start the server"
+* Go to http://localhost:3000 in your browser
 
 Not familiar with Vagrant? Check out the [Getting Started](http://docs.vagrantup.com/v2/getting-started/index.html) guide.
 
 `vagrant ssh` will get you onto the vm where you can run rake/rails commands, etc.
 
-The code directory on your machine is mounted into the vm. When you ssh in it's in the `wwip` folder. You can edit files and perform git operations on your host computer using your tools of choice and the changes will be reflected on the vm.
+The code directory on your machine is mounted into the vm. When you ssh in it's in the `watw` folder. You can edit files and perform git operations on your host computer using your tools of choice and the changes will be reflected on the vm.
 
 After your first `vagrant up` you can [stop](http://docs.vagrantup.com/v2/getting-started/teardown.html) and [start](http://docs.vagrantup.com/v2/getting-started/up.html) the vm more quickly. The initial provisioning only needs to run once. If anything happens with your setup you can `vagrant destroy` and `vagrant up` to bring back a fresh environment.
-
 
 ## Original Developer Notes
 
