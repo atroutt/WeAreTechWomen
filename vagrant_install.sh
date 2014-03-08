@@ -28,7 +28,7 @@ rvm rvmrc warning ignore allGemfiles
 # attempt to give access to where rvm is installed,
 # TODO: fix this
 sudo mkdir /usr/local/rvm
-sudo chmod a+xw /usr/local/rvm
+sudo chmod a+xwr /usr/local/rvm
 
 # install rails
 gem install rails --no-ri --no-rdoc
