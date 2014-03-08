@@ -1,5 +1,5 @@
 # Development Box Setup
-We Are Tech Women was forked from the citizenry project. It seems this project is no longer under active development. It is, however, useful for historical purposes.
+We Are Tech Women was forked from We-Work-In-Philly, which was forked from the citizenry project. It seems this project is no longer under active development. It is, however, useful for historical purposes.
 - https://github.com/reidab/citizenry/
 
 We Are Tech Women is supported by all and owned by no one. Please see the GitHub issues log for some simple ways to contribute. There are several open items that might only require an hour or so of your time. If you have other ideas or enhancements, pull requests are always welcome.
