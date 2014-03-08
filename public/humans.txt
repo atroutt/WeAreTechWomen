@@ -8,3 +8,7 @@ Twitter: @auditty
 Developer: Cassandra King
 Location: Philadelphia, PA
 Twitter: @ca55king
+
+Developer: Deborah Shapiro
+Location: Philadelphia, PA
+Twitter: @shmeborah
