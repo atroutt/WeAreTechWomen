@@ -4,7 +4,6 @@ Developer: Audrey Troutt
 Location: Philadelphia, PA
 Twitter: @auditty
 
-
 Developer: Cassandra King
 Location: Philadelphia, PA
 Twitter: @ca55king
@@ -27,4 +26,8 @@ Location: Philadelphia, PA
 Copy: Sheila Waples
 Location: Philadelphia, PA
 Twitter: @sheilawaples
+
+Developer: Kirsten Smith
+Location: Princeton, NJ
+Twitter: @k_i_r
 
