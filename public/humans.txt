@@ -31,3 +31,6 @@ Developer: Kirsten Smith
 Location: Princeton, NJ
 Twitter: @k_i_r
 
+Developer: Gelsey Torres
+Location: Philadelphia, PA
+
