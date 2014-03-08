@@ -1,3 +1,7 @@
+
+#NOTE ON CSS
+To deploy app rapidly during 2014 Ladyhacks hackathon, temporary css edits to  /public/stylesheets/desktop.css are included in this repo. This will be updated in the following weeks
+
 # Development Box Setup
 We Are Tech Women was forked from We-Work-In-Philly, which was forked from the citizenry project. It seems this project is no longer under active development. It is, however, useful for historical purposes.
 - https://github.com/reidab/citizenry/
