@@ -56,7 +56,7 @@ To start up a vm:
 * Clone this repo to your machine
 * `cd We-Work-In-Philly` on your machine
 * `vagrant up` on your machine
-* Wait for the vm to load. The first time you run this command it will take a while as it installs a bunch of software. You'll know it's done when you see: `SETUP COMPLETE: We Work in Philly works in Vagrant!`
+* Wait for the vm to load. The first time you run this command it will take a while as it installs a bunch of software. You'll know it's done when you see: `SETUP COMPLETE:  We are Tech Women works in Vagrant!`
 * `vagrant ssh` this will get you into the vm without a password
 * `cd wwip` on the vm
 * `./go` on the vm
