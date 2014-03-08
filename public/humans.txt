@@ -1,46 +1,5 @@
 /* TEAM */
 
-Fearless Leader: Alex Hillman
-Twitter: @alexknowshtml
-
-Developer: Linus Graybill
-Twitter: @graybill
-
-Developer: Chris Cera
-Twitter: @chriscera
-
-Developer: Brad Oyler
-Twitter: @bradoyler
-
-Developer: Andrew Scott
-Twitter: @apscott43
-
-Developer: Matt Monihan
-Twitter: @mattmonihan
-
-Developer: Keith Fitzgerald
-Twitter: @ghostrocket
-
-Developer: James Evans
-Twitter: @james_f_evans
-
-Developer: Varun Gupta
-Twitter: @vgupta16
-
-Developer: Dave Mox
-Github: @themoxman
-
-Developer: Brian Glick
-Github: @bglick
-    
-    
-/* THANKS */
-
-Sponsor: PeopleLinx
-Twitter: @peoplelinx
-
-Sponsor: ArcWeb
-Twitter: @arcweb
-
-Sponsor: Leadnomics
-Twitter: @leadnomics    
+Developer: Audrey Troutt
+Location: Philadelphia, PA
+Twitter: @auditty
