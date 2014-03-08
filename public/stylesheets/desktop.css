@@ -660,3 +660,79 @@ pre.widget {
 	width: 320px;
 }
 /* March 8, 2014 - 2014 Ladyhacks css */
+
+#content {
+  border: 1px solid red;
+}
+/* Home Page styles*/
+#hellobar-container {
+  background-color: #000000;
+  background-image: none;
+}
+#hellobar-container.texture {
+background:#000000;
+
+}
+
+#hellobar-shadow {
+display: none;
+}
+
+#header {
+z-index: 50;
+background-color: #ffffff;
+background-image: none;
+}
+
+#home_to {
+  display: none;
+}
+#front_nav {
+  border: 1px solid red;
+  width: 75%;
+  clear:both;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#front_nav li {
+
+display: inline-block;
+margin: 0 0 5px;
+}
+#front_nav li a {
+  width: 100px;
+height: 100px;
+}
+
+#front_nav li.people a {
+  background: url("../images/site/people.png") no-repeat;
+}
+#front_nav li.companies a {
+  background: url("../images/site/companies.png") no-repeat;
+}
+#front_nav li.groups a {
+  background: url("../images/site/groups.png") no-repeat;
+}
+#front_nav li.projects a {
+  background: url("../images/site/projects.png") no-repeat;
+}
+#front_nav li.resources a {
+  background: url("../images/site/resources.png") no-repeat;
+}
+#front_nav li a .count  {
+  display: none;
+}
+
+/* Top Nav Styles*/
+
+
+
+
+
+
+
+
+
+
+
+
