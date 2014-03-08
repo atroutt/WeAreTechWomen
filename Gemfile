@@ -85,7 +85,7 @@ group :development, :test do
   # -- [ Tools ] ---------------------------------------------------------------
   gem 'heroku'
   gem "simplecov"
-  gem 'ruby-debug19'
+  gem 'debugger'
   gem 'annotate'
   gem "nifty-generators"
   gem 'powder'
