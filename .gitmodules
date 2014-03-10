@@ -1,0 +1,12 @@
+[submodule "cookbooks/rvm"]
+  path = cookbooks/rvm
+  url = https://github.com/fnichol/chef-rvm.git
+[submodule "cookbooks/postgresql"]
+  path = cookbooks/postgresql
+  url = https://github.com/freewrite-cookbooks/postgresql.git
+[submodule "cookbooks/chef_gem"]
+	path = cookbooks/chef_gem
+	url = https://github.com/hw-cookbooks/chef_gem.git
+[submodule "cookbooks/git"]
+	path = cookbook/git
+	url = https://github.com/opscode-cookbooks/git.git
