@@ -9,25 +9,27 @@
     %span.awesome_tagline We are Tech Women is a directory that connnects women involved, and those who aspire to be involved in technology from around the world. We hightlight women making a difference in tech, and inspire women entering the field.
     = render :partial => "layouts/like_button"
 
+%ul#front_nav
+  %li 
+    = link_to(image_tag("/images/site/people.png"), people_path, :class => 'people')
+    %span
+      = link_to "People", people_path, :class => 'people'
+  %li
+    = link_to(image_tag("/images/site/companies.png"), companies_path, :class => 'companies')
+    %span
+      = link_to "Companies", companies_path, :class => 'companies'
+  %li
+    = link_to(image_tag("/images/site/groups.png"), groups_path, :class => 'groups')
+    %span
+      = link_to "Groups", groups_path, :class => 'groups'
+  %li
+    = link_to(image_tag("/images/site/projects.png"), projects_path, :class => 'projects')
+    %span
+      = link_to "Projects", projects_path, :class => 'projects'
+  %li
+    = link_to(image_tag("/images/site/resources.png"), resource_links_path, :class => 'resources')
+    %span
+      = link_to "Resources", resource_links_path, :class => 'resources'
 
-:plain
-  <ul id="front_nav">
-    <li class="people">
-      <img src="../images/site/people.png"><a href="#">People</a>
-    </li>
-    <li class="people">
-      <img src="../images/site/companies.png"><a href="#">Companies</a>
-    </li>
-    <li class="people">
-      <img src="../images/site/groups.png"><a href="#">Groups</a>
-    </li>
-    <li class="people">
-      <img src="../images/site/projects.png"><a href="#">Project</a>
-    </li>
-    <li class="people">
-      <img src="../images/site/resources.png"><a href="#">Resources</a>
-    </li>
-    
-  </ul>
 
   
