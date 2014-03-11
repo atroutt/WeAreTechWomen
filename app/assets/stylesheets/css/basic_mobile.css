@@ -1,73 +1,61 @@
 /* line 46, ../../app/stylesheets/_mixins.sass */
 .people-text, #content .section_header.people a.new {
- /* color: #e6a74d;*/
- color: #c81c24;
+  color: #e6a74d;
 }
 
 /* line 48, ../../app/stylesheets/_mixins.sass */
 .companies-text, #content .section_header.companies a.new {
-/*  color: #ef6c7b;*/
-color: #c81c24;
+  color: #ef6c7b;
 }
 
 /* line 50, ../../app/stylesheets/_mixins.sass */
 .groups-text, #content .section_header.groups a.new {
- /* color: #da6dc9;*/
- color: #c81c24;
+  color: #da6dc9;
 }
 
 /* line 52, ../../app/stylesheets/_mixins.sass */
 .projects-text, #content .section_header.projects a.new {
-  /*color: #ae6bdd;*/
-  color: #c81c24;
+  color: #ae6bdd;
 }
 
 /* line 54, ../../app/stylesheets/_mixins.sass */
 .resources-text, #content .section_header.resources a.new {
- /* color: #54a5d4;*/
- color: #c81c24;
+  color: #54a5d4;
 }
 
 /* line 56, ../../app/stylesheets/_mixins.sass */
 .events-text, #content .section_header.events a.new {
- /* color: #82c555;*/
- color: #c81c24;
+  color: #82c555;
 }
 
 /* line 59, ../../app/stylesheets/_mixins.sass */
 .people-bg, #front_nav li.people a, #content .section_header.people {
- /* background: #e6a74d;*/
- background: #c81c24;
+  background: #e6a74d;
 }
 
 /* line 61, ../../app/stylesheets/_mixins.sass */
 .companies-bg, #front_nav li.companies a, #content .section_header.companies {
-/*  background: #ef6c7b;*/
-background: #c81c24;
+  background: #ef6c7b;
 }
 
 /* line 63, ../../app/stylesheets/_mixins.sass */
 .groups-bg, #front_nav li.groups a, #content .section_header.groups {
-/*  background: #da6dc9;*/
-background: #c81c24;
+  background: #da6dc9;
 }
 
 /* line 65, ../../app/stylesheets/_mixins.sass */
 .projects-bg, #front_nav li.projects a, #content .section_header.projects {
-/*  background: #ae6bdd;*/
-background: #c81c24;
+  background: #ae6bdd;
 }
 
 /* line 67, ../../app/stylesheets/_mixins.sass */
 .resources-bg, #front_nav li.resources a, #content .section_header.resources {
- /* background: #54a5d4;*/
- background: #c81c24;
+  background: #54a5d4;
 }
 
 /* line 69, ../../app/stylesheets/_mixins.sass */
 .events-bg, #front_nav li.events a, #content .section_header.events {
-/*  background: #82c555;*/
-background: #c81c24;
+  background: #82c555;
 }
 
 /* line 72, ../../app/stylesheets/_mixins.sass */
@@ -1117,16 +1105,6 @@ body.site_index .home_marker {
 /* line 122, ../../app/stylesheets/basic_mobile.sass */
 #header #main_nav {
   display: none;
-}
-/*March 11 2014 //Top Nav Styles*/
-#header ul#main_nav li a.people:hover,
-#header ul#main_nav li a.companies:hover,
-#header ul#main_nav li a.groups:hover,
-#header ul#main_nav li a.projects:hover,
-#header ul#main_nav li a.resources:hover
- {
-  color: #c81c24;
- 
 }
 
 /* line 125, ../../app/stylesheets/basic_mobile.sass */

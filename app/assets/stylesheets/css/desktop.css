@@ -126,7 +126,7 @@
   -webkit-font-smoothing: antialiased;
 }
 h3 {
-  color: #000;
+	color: #000;
 }
 /* line 23, ../../app/stylesheets/_webfonts.sass */
 #header h1 {
@@ -248,12 +248,12 @@ form.formtastic input, form.formtastic textarea {
 }
 
 fieldset#contact_options input[type=checkbox], fieldset#contact_options label {
-  float: left;
-  display: block;
+	float: left;
+	display: block;
 }
 
 fieldset#contact_options label {
-  margin: -18px 0 0 24px;
+	margin: -18px 0 0 24px;
 }
 /* line 15, ../../app/stylesheets/desktop.sass */
 .desktop-only {
@@ -488,7 +488,7 @@ body.signed_in #header #global_search {
   margin-right: 10px;
   width: 580px;
   margin-right: 0;
-  margin-top:10px;
+	margin-top:10px;
 }
 
 /* line 149, ../../app/stylesheets/desktop.sass */
@@ -520,8 +520,8 @@ body.signed_in #header #global_search {
   width: auto;
 }
 #content .section.contact p {
-  padding-left: 20px;
-  background: url("/images/accept.png") no-repeat;
+	padding-left: 20px;
+	background: url("/images/accept.png") no-repeat;
 }
 /* line 167, ../../app/stylesheets/desktop.sass */
 #content .resource_list li h3 {
@@ -560,7 +560,7 @@ body.signed_in #header #global_search {
 }
 
 #content .single_record img.person_photo.map, #content .single_record img.logo.map, #content .single_record img.map.map {
-  top: 230px;
+	top: 230px;
 }
 /* line 185, ../../app/stylesheets/desktop.sass */
 #content .single_record .record_actions {
@@ -630,7 +630,7 @@ body.signed_in #header #global_search {
   margin-right: 0;
 }
 #content #user_home #badges img {
-  margin: 10px 0 0 10px;
+	margin: 10px 0 0 10px;
 }
 
 /* line 215, ../../app/stylesheets/desktop.sass */
@@ -645,21 +645,21 @@ div#creepy-baby-sloth img {
   border: 2px solid #ef6c7b;
 }
 .badge img {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 pre.widget {
-  white-space: pre-wrap;       /* css-3 */
-  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-  white-space: -pre-wrap;      /* Opera 4-6 */
-  white-space: -o-pre-wrap;    /* Opera 7 */
-  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
   width: 300px;
-  background: #ccc;
-  padding: 10px;
-  font-size: 12px;
+	background: #ccc;
+	padding: 10px;
+	font-size: 12px;
 }
 #badges textarea, #badges input {
-  width: 320px;
+	width: 320px;
 }
 /* March 8, 2014 - 2014 Ladyhacks css */
 
@@ -769,18 +769,11 @@ font-family: verdana , arial, sans-serif;
   opacity: 0.21; 
   -moz-opacity: 0.2;
   -ms-filter:'progid:DXImageTransform.Microsoft.Alpha'(Opacity=0.21);
-   -moz-transition-property: all;
-  -webkit-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -moz-transition-duration: 0.2s;
-  -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -moz-transition-timing-function: ease-out;
-  -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease;
 }
 #front_nav li {
   width: 19%;
@@ -839,7 +832,17 @@ color: #000000;
 #front_nav li a .count  {
   
 }
-
+/* Top Nav Styles*/
+#main_nav li a.people:hover,
+#main_nav li a.companies:hover,
+#main_nav li a.groups:hover,
+#main_nav li a.projects:hover,
+#main_nav li a.resources:hover
+ {
+  border: 1px solid red;
+  color: #c81c24;
+  
+}
 
 
 
