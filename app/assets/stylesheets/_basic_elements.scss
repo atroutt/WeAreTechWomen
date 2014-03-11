@@ -2,6 +2,8 @@
 
 // Styles for tags that we never actually use in the layout are commented out.
 // TODO: Uncomment them if we ever have HTML-y user-submitted content.
+$sans_family: "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+
 html, body {
   font-family: $sans_family;
   line-height: 1.5;

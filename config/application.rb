@@ -24,6 +24,17 @@ module Citizenry
     
     # fix for 3.x rails apps on heroku https://devcenter.heroku.com/articles/rails-asset-pipeline#troubleshooting
     config.assets.initialize_on_precompile = false
+    if defined?(Bundler)
+      # If you precompile assets before deploying to production, use this line
+      Bundler.require *Rails.groups(:assets => %w(development test))
+      # If you want your assets lazily compiled in production, use this line
+      # Bundler.require(:default, :assets, Rails.env)
+    end
+     # Enable the asset pipeline
+        config.assets.enabled = true
+
+    # Version of your assets, change this if you want to expire all your assets
+        config.assets.version = '1.0'
     # Only load the plugins named here, in the order given (default is alphabetical).
     # :all can be used as a placeholder for all plugins not explicitly named.
     # config.plugins = [ :exception_notification, :ssl_requirement, :all ]

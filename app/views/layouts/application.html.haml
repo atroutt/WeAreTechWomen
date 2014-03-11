@@ -11,6 +11,7 @@
     %meta{:name=>"description", :content=>"WeWorkInPhilly is a 100% community-edited guide to the creative, technology, and business community in Philadelphia. "}
     %link{:rel => 'search', :type => 'application/opensearchdescription+xml', :href => '/opensearch.xml', :title => SETTINGS['organization']['name']}
     - force_mobile = params[:force_mobile].present?
+    = stylesheet_link_tag "application"
     -#
       Level 1: All browsers, evar.
       Provides basic mobile layout
@@ -28,6 +29,7 @@
         :media => force_mobile ? 'none' : 'all and (min-device-width: 961px)')
     /[if lt IE 9]
       = stylesheet_link_tag('desktop', :media => 'all')
+    = javascript_include_tag "application" 
 
     = javascript_include_tag 'lib/jquery-1.5.js',
                              'lib/jquery.hotkeys.js',
