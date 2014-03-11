@@ -4,29 +4,29 @@
   %span.tagline 
     %h2 Connect. Inspire. Engage.
   %div.awesome_wrapper
-    %span{:class => 'awesome'} Our Mission
+  %span{:class => 'awesome'} Our Mission
 
-    %span.awesome_tagline We are Tech Women is a directory that connnects women involved, and those who aspire to be involved in technology from around the world. We hightlight women making a difference in tech, and inspire women entering the field.
-    = render :partial => "layouts/like_button"
+  %span.awesome_tagline We are Tech Women is a directory that connnects women involved, and those who aspire to be involved in technology from around the world. We hightlight women making a difference in tech, and inspire women entering the field.
+  = render :partial => "layouts/like_button"
 
 %ul#front_nav
-  %li 
+  %li.people 
     = link_to(image_tag("/images/site/people.png"), people_path, :class => 'people')
     %span
       = link_to "People", people_path, :class => 'people'
-  %li
+  %li.companies
     = link_to(image_tag("/images/site/companies.png"), companies_path, :class => 'companies')
     %span
       = link_to "Companies", companies_path, :class => 'companies'
-  %li
+  %li.groups
     = link_to(image_tag("/images/site/groups.png"), groups_path, :class => 'groups')
     %span
       = link_to "Groups", groups_path, :class => 'groups'
-  %li
+  %li.projects
     = link_to(image_tag("/images/site/projects.png"), projects_path, :class => 'projects')
     %span
       = link_to "Projects", projects_path, :class => 'projects'
-  %li
+  %li.resources
     = link_to(image_tag("/images/site/resources.png"), resource_links_path, :class => 'resources')
     %span
       = link_to "Resources", resource_links_path, :class => 'resources'
