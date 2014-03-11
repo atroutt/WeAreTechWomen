@@ -1893,7 +1893,7 @@ body.events #content {
   line-height: 32px;
   margin-bottom: 0.5em;
 }
-/*Styles updated March 11 2014*/
+/*Styles updated March 11 2014, to be removed once precompiling fixed*/
 #hello-bar-wrapper {
   display:none;
 }
@@ -1902,51 +1902,45 @@ body.events #content {
   background-image: none;
 }
 #hellobar-container.texture {
-background:#000000;
+  background:#000000;
 }
 
 #hellobar-shadow {
-display: none;
+  display: none;
 }
 #header h1 a span {
   color: #c81c24;
 }
 #hellobar-container  span {
   font-family: sans-serif;
- display: none;
+  display: none;
 }
 /*see line 1219*/
 #site_intro {
-  
 }
 #site_intro .awesome {
   display: inline;
- color: #ffffff;
-
-
+  color: #ffffff;
 }
 #site_intro .awesome_tagline {
   color: #ffffff;
 }
 #site_intro .awesome_wrapper {
-
-
 }
 
 #site_intro .headline h2 {
-  display:none;
+  display: none;
   color: #ffffff;
   background-color: #c81c24;
 }
 #site_intro .tagline h2 {
-  display:none;
+  display: none;
   color: #ffffff;
   background-color: #c81c24;
 }
 #front_nav {
- 
 }
 #front_nav img, #front_nav img:hover {
-display:none;
+  display: none;
 }
 

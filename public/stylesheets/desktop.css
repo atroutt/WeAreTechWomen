@@ -662,44 +662,37 @@ pre.widget {
   width: 320px;
 }
 /* March 8, 2014 - 2014 Ladyhacks css */
+/*Styles updated March 11 2014, to be removed once precompiling fixed*/
+
 
 body.groups #content form fieldset.inputs ol li {
-/*  border: 1px  solid red;
-*/}
+}
 body.site #content {
-  text-align: center;
-  margin: 0 auto;
   position: relative;
-  /*border: 1px solid blue;*/
+  margin: 0 auto;
+  text-align: center;
 }
 #content {
- margin-top: 0;
+  margin-top: 0;
 }
 /* Home Page styles*/
 #hello-bar-wrapper {
-  display:block;
+  display: block;
 }
 /*#hellobar-container {
-  background-color: #000000;
-  background-image: none;
 }
 #hellobar-container.texture {
-background:#000000;
 }
-
 #hellobar-shadow {
-display: none;
 }*/
-
-#header {
-z-index: 50;
-background-color: #ffffff;
-background-image: none;
-font-family: verdana , arial, sans-serif;
-}
-
 #home_to {
   display: none;
+}
+#header {
+  background-color: #ffffff;
+  background-image: none;
+  font-family: verdana , arial, sans-serif;
+  z-index: 50;
 }
 #header h1 a span {
   color: #c81c24;
@@ -708,8 +701,8 @@ font-family: verdana , arial, sans-serif;
   display: block;
 }
 #hellobar-container a, #hellobar-container a:link, #hellobar-container a:visited {
-color: #c81c24;
-background-color: #ffffff;
+  color: #c81c24;
+  background-color: #ffffff;
 }
 #site_intro {
   position: relative;
@@ -722,70 +715,63 @@ background-color: #ffffff;
 }
 
 #site_intro .awesome {
-   display: inline-block;
- margin: 200px auto 0;
+  display: inline-block;
+  margin: 200px auto 0;
   width: 70%;
   clear: both;
   z-index: 500;
 }
 #site_intro .awesome_tagline {
   display: inline-block;
-   margin: 0 auto;
+  margin: 0 auto;
   width: 70%;
   vertical-align: baseline;
   clear: both;
-   z-index: 2;
+  z-index: 2;
 }
 #site_intro .awesome_wrapper {
-  position: absolute;
+  position: absolute; 
   bottom: 0;
-  content: "  ";
   display: block;
   margin-top: 120px;
   height: 190px;
   width: 100%;
   background-color: #000000;
   z-index: 1;
-
- opacity: 0.71; 
--moz-opacity: 0.2;
--ms-filter:'progid:DXImageTransform.Microsoft.Alpha'(Opacity=0.21);
-
+  content: "  ";
+  opacity: 0.71; 
+  -moz-opacity: 0.2;
+  -ms-filter:'progid:DXImageTransform.Microsoft.Alpha'(Opacity=0.21);
 }
 #twitter-widget-0 {
-  float: none;
-  margin: 0 auto;
   display: block;
+  margin: 0 auto;
+  float: none;
   clear: both;
 }
 #site_intro .headline h2 {
+  display: inline-block;
   float: left;
   clear: both;
-  display:inline-block;
   font-size: 60px;
   line-height: 1.0em;
   text-align: left;
-/*  color: #ffffff;*/
   z-index: 500;
- /* background-color: #c81c24;*/
 }
 
 #site_intro .tagline h2 {
+  display:inline-block;
   float: left;
   clear: both;
   line-height: 1.5em;
-  display:inline-block;
   width: auto;
   text-align: left;
-/*  color: #ffffff;*/
   z-index: 500;
-/*  background-color: #c81c24;*/
 }
-
 #front_nav {
-  float: none;
-  position: relative;
   display: block;
+  position: relative;
+  float: none;
   width: 100%;
   clear: both;
   margin: 0 auto;
@@ -798,7 +784,7 @@ background-color: #ffffff;
   opacity: 0.21; 
   -moz-opacity: 0.2;
   -ms-filter:'progid:DXImageTransform.Microsoft.Alpha'(Opacity=0.21);
-   -moz-transition-property: all;
+  -moz-transition-property: all;
   -webkit-transition-property: all;
   -o-transition-property: all;
   transition-property: all;
@@ -815,13 +801,13 @@ background-color: #ffffff;
   width: 19%;
 }
 #front_nav li, li:hover {
-background: transparent;
-display: inline-block;
-margin:0 auto;
-text-align: center;
+  display: inline-block;
+  margin:0 auto;
+  background: transparent;
+  text-align: center;
 }
 #front_nav li > a {
-color: #000000;
+  color: #000000;
 }
 #front_nav li span a {
   display: inline-block;
@@ -847,21 +833,17 @@ color: #000000;
 #footer  a {
   color: #c81c24;
 }
-
 #front_nav li, #front_nav li a {
   background-color: #ffffff;
 }
 #front_nav li a {
-/* background: #ef6c7b; */
-/* background: #c81c24; */
 }
 
 #front_nav li a:hover {
   background-color: none;
 }
 
-#front_nav li a .count  {
-  
+#front_nav li a .count  { 
 }
 
 
