@@ -679,12 +679,11 @@ body.site #content {
 #hello-bar-wrapper {
   display: block;
 }
-/*#hellobar-container {
+body.site > #hello-bar-wrapper a#hellobar-open, 
+body.site > #hello-bar-wrapper a#hellobar-open:link, 
+body.site > #hello-bar-wrapper a#hellobar-open:visited {
+  background-color: #c81c24;
 }
-#hellobar-container.texture {
-}
-#hellobar-shadow {
-}*/
 #home_to {
   display: none;
 }
@@ -715,19 +714,22 @@ body.site #content {
 }
 
 #site_intro .awesome {
+  /*this has been set elsewhere to position: relative;*/
   display: inline-block;
-  margin: 200px auto 0;
-  width: 70%;
+  margin: 160px auto 0;
+  width: 95%;
   clear: both;
   z-index: 500;
 }
 #site_intro .awesome_tagline {
+  position: relative;
   display: inline-block;
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
+  color: #ffffff;
   vertical-align: baseline;
   clear: both;
-  z-index: 2;
+  z-index: 500;
 }
 #site_intro .awesome_wrapper {
   position: absolute; 
@@ -743,11 +745,13 @@ body.site #content {
   -moz-opacity: 0.2;
   -ms-filter:'progid:DXImageTransform.Microsoft.Alpha'(Opacity=0.21);
 }
-#twitter-widget-0 {
+#site_intro > #twitter-widget-0 {
   display: block;
+  position: relative;
   margin: 0 auto;
   float: none;
   clear: both;
+  z-index: 500;
 }
 #site_intro .headline-container {
   position: absolute;

@@ -1911,6 +1911,9 @@ body.events #content {
 #header h1 a span {
   color: #c81c24;
 }
+#header #account_box #global_sign_in {
+  background: #c81c24;
+}
 #hellobar-container  span {
   font-family: sans-serif;
   display: none;
