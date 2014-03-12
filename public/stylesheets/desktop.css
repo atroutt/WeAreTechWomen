@@ -800,14 +800,26 @@ body.site #content {
 #front_nav li {
   width: 19%;
 }
-#front_nav li, li:hover {
+#front_nav li,
+#front_nav li:hover {
   display: inline-block;
   margin:0 auto;
   background: transparent;
   text-align: center;
 }
-#front_nav li > a {
+#front_nav li a:hover {
+  background-color: none;
+}
+#front_nav li, #front_nav li a {
+  background-color: #ffffff;
+}
+#front_nav li a .count  { 
+}
+#front_nav li a {
   color: #000000;
+}
+#front_nav li a:hover {
+    color: #c81c24;
 }
 #front_nav li span a {
   display: inline-block;
@@ -823,7 +835,6 @@ body.site #content {
 #front_nav li a.projects:hover,
 #front_nav li a.resources,
 #front_nav li a.resources:hover {
-  color: #c81c24;
   background-color: #ffffff;
 }
 
@@ -833,18 +844,7 @@ body.site #content {
 #footer  a {
   color: #c81c24;
 }
-#front_nav li, #front_nav li a {
-  background-color: #ffffff;
-}
-#front_nav li a {
-}
 
-#front_nav li a:hover {
-  background-color: none;
-}
-
-#front_nav li a .count  { 
-}
 
 
 
