@@ -1918,6 +1918,9 @@ body.events #content {
 /*see line 1219*/
 #site_intro {
 }
+#site_intro .headline-container {
+  display: none;
+}
 #site_intro .awesome {
   display: inline;
   color: #ffffff;

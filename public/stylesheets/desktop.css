@@ -749,13 +749,26 @@ body.site #content {
   float: none;
   clear: both;
 }
+#site_intro .headline-container {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 628px;
+  height: 143px;
+  background: url("../images/site/womenintech.png") no-repeat;
+  z-index: 500;
+}
 #site_intro .headline h2 {
   display: inline-block;
   float: left;
   clear: both;
+  background-color: transparent;
   font-size: 60px;
   line-height: 1.0em;
   text-align: left;
+  text-indent: -9999px;
   z-index: 500;
 }
 
@@ -763,9 +776,11 @@ body.site #content {
   display:inline-block;
   float: left;
   clear: both;
+  background-color: transparent;
   line-height: 1.5em;
   width: auto;
   text-align: left;
+  text-indent: -9999px;
   z-index: 500;
 }
 #front_nav {
