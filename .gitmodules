@@ -1,9 +1,9 @@
 [submodule "puppet/modules/postgresql"]
 	path = puppet/modules/postgresql
-	url = git://github.com/uggedal/puppet-module-postgresql.git
+	url = git://github.com/puppetmodules/puppet-module-postgresql
 [submodule "puppet/modules/git"]
 	path = puppet/modules/git
-	url = git://github.com/uggedal/puppet-module-git.git
+	url = git://github.com/puppetmodules/puppet-module-git.git
 [submodule "puppet/modules/nginx"]
 	path = puppet/modules/nginx
-	url = git://github.com/uggedal/puppet-module-nginx.git
+	url = git://github.com/puppetmodules/puppet-module-nginx.git
