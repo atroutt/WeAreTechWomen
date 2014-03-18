@@ -19,17 +19,17 @@ Vagrant.configure("2") do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  config.vm.synced_folder ".", "/home/vagrant/watw"
+  config.vm.synced_folder ".", "/home/vagrant/source"
 
   config.vm.provider :virtualbox do |vb|
     vb.customize ["modifyvm", :id, "--memory", "2048"]
   end
 
-  config.vm.provision "shell", path: "vagrant_install.sh"
-
   config.vm.provision :puppet do |puppet|
-    puppet.manifests_path = 'puppet/manifests'
-    puppet.module_path    = 'puppet/modules'
+    puppet.manifests_path = "puppet/manifests"
+    puppet.manifest_file  = "default.pp"
+    puppet.module_path = "puppet/modules"
+    puppet.options = ['--verbose']
   end
 
 end

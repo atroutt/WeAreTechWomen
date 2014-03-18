@@ -8,9 +8,6 @@ sudo apt-get upgrade
 sudo apt-get install git -y
 echo "Git installed!"
 
-# install curl
-sudo apt-get install curl -y
-
 if which puppet > /dev/null ; then
   echo "Puppet is already installed"
   exit 0
@@ -28,6 +25,11 @@ aptitude update
 echo Installing puppet
 aptitude install -y puppet
 echo "Puppet installed!"
+
+# update submodules
+cd source
+git submodule update --init --recursive
+echo "Submodules updated!"
 
 # # install rvm
 # curl -L get.rvm.io | bash -s stable

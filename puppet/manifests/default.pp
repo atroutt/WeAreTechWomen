@@ -5,30 +5,22 @@ Exec {
   path => ['/usr/sbin', '/usr/bin', '/sbin', '/bin']
 }
 
-# --- Preinstall Stage ---------------------------------------------------------
-
-stage { 'preinstall':
-  before => Stage['main']
+file { '/etc/motd':
+	content => "Let's install the development environment! \n"
 }
 
-class apt_get_update {
-  exec { 'apt-get -y update':
-    unless => "test -e ${home}/.rvm"
-  }
-}
-class { 'apt_get_update':
-  stage => preinstall
+exec { 'apt-get update':
+  command => 'apt-get update',
+  timeout => 60,
+  tries   => 3
 }
 
-# --- PostgreSQL ---------------------------------------------------------------
+class { 'git': }
 
-class install_postgres {
-  class { 'postgresql': }
+# --- Packages -----------------------------------------------------------------
 
-  class { 'postgresql::server': }
-
-  package { 'libpq-dev':
-    ensure => installed
-  }
+$sysPackages = [ 'build-essential', 'git', 'curl', 'vim']
+package { $sysPackages:
+  ensure => "installed",
+  require => Exec['apt-get update'],
 }
-class { 'install_postgres': }
