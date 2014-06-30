@@ -52,29 +52,28 @@ You can avoid installing the dependencies listed above on your machine by runnin
 
 Before proceeding you need to have installed:
 
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* [Vagrant](http://www.vagrantup.com/)
+* [VirtualBox 4.3.12](https://www.virtualbox.org/wiki/Downloads)
+* [Vagrant 1.6.0](http://www.vagrantup.com/)
 
 To start up a vm:
 
-* Clone this repo to your machine
-* `cd wearetechwomen` on your machine
-* `vagrant up` on your machine
-* Wait for the vm to load. The first time you run this command it will take a while as it installs a bunch of software.
-    You'll know it's done when you see: `SETUP COMPLETE: We Are Tech Women works in Vagrant!`
-* `vagrant ssh` this will get you into the vm without a password
-* `cd watw`
-* `bundle install`
-* `./go` to start the server"
+* Clone this repository
+* `host $ cd wearetechwomen`
+* `host $ vagrant up`
+* `host $ vagrant ssh` this will get you into the vm without a password
+* `vagrant $ cd source`
+* `vagrant $ bundle install`
+* `vagrant $ bundle exec rake db:create db:migrate db:test:prepare` to create database, migrate, prepare db tests
+* `vagrant $ ./go` to start the server
 * Go to http://localhost:3000 in your browser
 
 Not familiar with Vagrant? Check out the [Getting Started](http://docs.vagrantup.com/v2/getting-started/index.html) guide.
 
-`vagrant ssh` will get you onto the vm where you can run rake/rails commands, etc.
+The code directory on your machine is mounted into the vm. When you ssh in it's in the `source` folder. \
+You can edit files and perform git operations on your host computer using your tools of choice and the changes will be reflected on the vm.
 
-The code directory on your machine is mounted into the vm. When you ssh in it's in the `watw` folder. You can edit files and perform git operations on your host computer using your tools of choice and the changes will be reflected on the vm.
-
-After your first `vagrant up` you can [stop](http://docs.vagrantup.com/v2/getting-started/teardown.html) and [start](http://docs.vagrantup.com/v2/getting-started/up.html) the vm more quickly. The initial provisioning only needs to run once. If anything happens with your setup you can `vagrant destroy` and `vagrant up` to bring back a fresh environment.
+After your first `vagrant up` you can [stop](http://docs.vagrantup.com/v2/getting-started/teardown.html)
+and [start](http://docs.vagrantup.com/v2/getting-started/up.html) the vm more quickly. The initial provisioning only needs to run once. If anything happens with your setup you can `vagrant destroy` and `vagrant up` to bring back a fresh environment.
 
 ## Original Developer Notes
 

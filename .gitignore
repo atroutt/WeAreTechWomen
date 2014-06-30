@@ -15,6 +15,6 @@ log/searchd.development.pid
 *~
 \#*
 .\#*
-.DS_Store
+*.DS_Store
 *.swp
 .vagrant*
