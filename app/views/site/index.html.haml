@@ -1,13 +1,34 @@
 #site_intro
-  A community-edited guide to the
-  %span{:class => 'awesome'} awesome women in technology
+  %div.headline-container
+  %span.headline
+    %h2 We are tech women.
+  %span.tagline 
+    %h2 Connect. Inspire. Engage.
+  %div.awesome_wrapper
+  %span{:class => 'awesome'} Our Mission
+  %span{:class => 'awesome_tagline'} We are Tech Women is a directory that connnects women involved, and those who aspire to be involved in technology from around the world. We highlight women making a difference in tech, and inspire women entering the field.
   = render :partial => "layouts/like_button"
+
 %ul#front_nav
-  %h2#home_to Home to
-  %li.people= link_to semantic_pluralize(Person.count, "Person"), people_path
-  %li.companies= link_to semantic_pluralize(Company.count, "Company"), companies_path
-  %li.groups= link_to semantic_pluralize(Group.count, "Group"), groups_path
-  %li.projects= link_to semantic_pluralize(Project.count, "Project or Product", "Projects & Products"), projects_path
-  %li.resources= link_to semantic_pluralize(ResourceLink.count, "Resource"), resource_links_path
-  - if @events_count
-    %li.events= link_to semantic_pluralize(@events_count, "Upcoming event") + " on Calagator", 'http://calagator.org/events'
+  %li.people 
+    = link_to(image_tag("/images/site/people.png"), people_path, :class => 'people')
+    %span
+      = link_to "People", people_path, :class => 'people'
+  %li.companies
+    = link_to(image_tag("/images/site/companies.png"), companies_path, :class => 'companies')
+    %span
+      = link_to "Companies", companies_path, :class => 'companies'
+  %li.groups
+    = link_to(image_tag("/images/site/groups.png"), groups_path, :class => 'groups')
+    %span
+      = link_to "Groups", groups_path, :class => 'groups'
+  %li.projects
+    = link_to(image_tag("/images/site/projects.png"), projects_path, :class => 'projects')
+    %span
+      = link_to "Projects", projects_path, :class => 'projects'
+  %li.resources
+    = link_to(image_tag("/images/site/resources.png"), resource_links_path, :class => 'resources')
+    %span
+      = link_to "Resources", resource_links_path, :class => 'resources'
+
+

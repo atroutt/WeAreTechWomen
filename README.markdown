@@ -1,5 +1,9 @@
+
+#NOTE ON CSS
+To deploy app rapidly during 2014 Ladyhacks hackathon, temporary css edits to  /public/stylesheets/desktop.css are included in this repo. This will be updated in the following weeks
+
 # Development Box Setup
-We Are Tech Women was forked from the citizenry project. It seems this project is no longer under active development. It is, however, useful for historical purposes.
+We Are Tech Women was forked from We-Work-In-Philly, which was forked from the citizenry project. It seems this project is no longer under active development. It is, however, useful for historical purposes.
 - https://github.com/reidab/citizenry/
 
 We Are Tech Women is supported by all and owned by no one. Please see the GitHub issues log for some simple ways to contribute. There are several open items that might only require an hour or so of your time. If you have other ideas or enhancements, pull requests are always welcome.
@@ -68,7 +72,7 @@ Not familiar with Vagrant? Check out the [Getting Started](http://docs.vagrantup
 
 `vagrant ssh` will get you onto the vm where you can run rake/rails commands, etc.
 
-The code directory on your machine is mounted into the vm. When you ssh in it's in the `wwip` folder. You can edit files and perform git operations on your host computer using your tools of choice and the changes will be reflected on the vm.
+The code directory on your machine is mounted into the vm. When you ssh in it's in the `watw` folder. You can edit files and perform git operations on your host computer using your tools of choice and the changes will be reflected on the vm.
 
 After your first `vagrant up` you can [stop](http://docs.vagrantup.com/v2/getting-started/teardown.html) and [start](http://docs.vagrantup.com/v2/getting-started/up.html) the vm more quickly. The initial provisioning only needs to run once. If anything happens with your setup you can `vagrant destroy` and `vagrant up` to bring back a fresh environment.
 
